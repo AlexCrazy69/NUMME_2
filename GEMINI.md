@@ -1,0 +1,1 @@
+carroussel ne fonctionne plus, et il manque le CRUD pour dico.dbb dans le dashboard admin 

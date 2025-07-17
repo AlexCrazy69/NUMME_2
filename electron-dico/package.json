@@ -1,0 +1,13 @@
+{
+  "name": "electron-dico",
+  "version": "1.0.0",
+  "description": "Dictionnaire Numèè hors ligne",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^28.2.3",
+    "electron-packager": "^17.1.2"
+  }
+}
