@@ -28,7 +28,7 @@ app.use((req, res, next) => {
     + "script-src 'self' 'unsafe-inline';"
     + "style-src 'self' 'unsafe-inline';"
     + "img-src 'self' data:;"
-    + "connect-src 'self' http://localhost:3001;"
+    + "connect-src 'self' https://numme2-d1sd8.sevalla.app:3001;"
     + "font-src 'self';"
     + "object-src 'none';"
     + "media-src 'self';"
