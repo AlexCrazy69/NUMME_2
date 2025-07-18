@@ -409,5 +409,5 @@ app.put('/api/community-quiz/:id', (req, res) => {
 
 // Start server
 app.listen(port, () => {
-  log(`Server is running on http://localhost:${port}`);
+  log(`Server is running on https://numme2-d1sd8.sevalla.app:${port}`);
 });
