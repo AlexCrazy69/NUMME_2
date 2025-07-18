@@ -28,7 +28,7 @@ app.use((req, res, next) => {
     + "script-src 'self' 'unsafe-inline';"
     + "style-src 'self' 'unsafe-inline';"
     + "img-src 'self' data:;"
-    + "connect-src 'self' https://numme2-d1sd8.sevalla.app:3001;"
+    + "connect-src 'self' http://localhost:3001;"
     + "font-src 'self';"
     + "object-src 'none';"
     + "media-src 'self';"
@@ -409,5 +409,5 @@ app.put('/api/community-quiz/:id', (req, res) => {
 
 // Start server
 app.listen(port, () => {
-  log(`Server is running on https://numme2-d1sd8.sevalla.app:${port}`);
+  log(`Server is running on http://localhost:${port}`);
 });
